@@ -1,0 +1,106 @@
+#workskin .google {
+    width: 25em;
+    background-color: white;
+    color: rgb(3, 3, 3);
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: auto;
+}
+
+#workskin .google div,
+#workskin .google p {
+  margin: 0em;
+  padding: 0em;
+  display: inline;
+}
+
+#workskin .google .header,
+#workskin .google .searchHistory,
+#workskin .google .search {
+    display: block;
+    width: 100%;
+}
+
+#workskin .google .header {
+    margin: 1em 0.5em 0.5em 0.5em;
+    padding-bottom: 1.5em;
+    border-bottom-style: solid;
+    border-color: rgb(234, 234, 236);
+    border-width: 0.1em;
+}
+
+#workskin .google .header img {
+    height: 1.2em;
+}
+
+#workskin .google .header .searchBar {
+    font-size: 1em;
+    background-color: rgb(231, 233, 237);
+    padding: 0.5em;
+    border-radius: 5em;
+    color: rgb(88, 88, 92);
+}
+
+#workskin .google .header .searchBar .voiceIcon {
+    padding: 0em 1.2em;
+}
+
+#workskin .google .header .searchBar .googleLogo {
+    padding-right: 1.2em;
+}
+
+#workskin .google .header .searchBar p {
+    vertical-align: middle;
+}
+
+#workskin .google .header .searchBar .placeholder {
+    vertical-align: top;
+    padding-right: 1em;
+}
+
+
+#workskin .google .header .closeIcon img {
+    border-radius: 10em;
+}
+
+#workskin .google .header .closeIcon {
+    display: inline-block;
+    border-radius: 10em;
+    background-color: rgb(231, 233, 237);
+    padding: 0.3em 0.5em 0.1em 0.5em;
+    margin-left: 0.5em;
+    margin-top: -0.2em;
+    vertical-align: middle;
+}
+
+#workskin .searchHistory {
+    overflow: scroll;
+    max-height: 45em;
+}
+
+#workskin .searchHistory .search {
+    margin: 1em 0em;
+}
+
+#workskin .searchHistory .search img {
+    vertical-align: bottom;
+}
+
+#workskin .searchHistory .search .historyIcon img {
+    height: 1.5em;
+    padding-right: 1em;
+}
+
+#workskin .searchHistory .search .arrowIcon img {
+    height: 1em;
+    margin-top: 0.2em;
+    float: right;
+}
+
+#workskin .searchHistory .search .divider {
+    border-bottom-style: solid;
+    border-color: rgb(234, 234, 236);
+    border-width: 0.05em;
+    padding-bottom: 1em;
+    display: block;
+    margin-left: 2.8em;
+}
